@@ -1,0 +1,30 @@
+记账本小程序： 
+一款功能实现较好，用法简单的记账小程序
+
+小程序目录结构：
+       ├── weui                                //ColorUI相关文件
+       ├── common/lib                           //ColorUI文件夹
+       ├── pages                               
+       │       └── handbook/detail                 //记账细节
+       │       └── handbook/index                 //记账本首页
+       │       └── handbook/statistics             //记账本统计
+       │       └── handbook/sublist               //账单条细则
+       │       └── index                          //小程序首页  
+       │       └── logs                           //暂时没用  
+       │       └── mine                           //我的页面
+       │       └── setting                           //设置功能
+       ├── utils                                
+       │       └── util.js                       //获取当前时间日期
+       │       └── wxcharts.js                    //表格获取
+       ├── app.js                                //全局js配置文件
+       ├── app.json                              //全局配置json文件
+       ├── app.wxss                              //全局wxss文件
+       └── project.config.json                   //工具配置(个性化配置)
+
+功能介绍 ：
+1.支出，自己记录账单
+2.数据统计
+3.创建账本分类
+4.账单编辑删除功能
+
+
